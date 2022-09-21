@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet">
+    <title>Age Check Challege</title>
+</head>
+
+<body>
+    <h1>Age Check Challege</h1>
+    <h3>Follow the prompts to check your age</h3>
+</body>
+
+<input id="answer"></input>
+
+<button id="button">Enter</button>
+
+<script>
+
+   
+    let el = document.querySelector('#button');
+    
+    el.addEventListener('click', Click);
+
+
+
+    
+    
+function Click() {
+
+    let userAge1 = 16
+    let userAge2 = 19
+    
+
+
+ if (userAge1 != 16) {
+    alert('You are old enough to drive but not old enough to buy alchol or vist a casino in Ontario')
+    
+ }else if(userAge2 != 19) {
+    alert("You are old enough to drive, buy alchol and vist a casino in Ontario")
+    
+ } else {
+   
+   alert("You not old enough to drive, buy alchol or vist a casino in Ontario")
+
+ }
+
+}
+    
+    
+</script>
+</html>
